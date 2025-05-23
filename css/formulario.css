@@ -1,63 +1,104 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+/* Reset básico */
+body,
+h1,
+h2,
+p,
+label,
+input,
+button {
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
+body {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  color: #333;
+}
+
+h1 {
   text-align: center;
-  margin-bottom: 20px;
+  color: #007bff; /* Azul chamativo */
+  margin-bottom: 10px;
+}
+
+#curso-selecionado {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+#nome-curso {
+  color: #007bff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 form {
-  background: white;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f4faff; /* Azul bem clarinho de fundo */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.15);
 }
 
 label {
   display: block;
-  margin-top: 15px;
-  font-weight: bold;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #0056b3;
 }
 
 input {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #cce5ff;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 button {
-  margin-top: 20px;
-  background-color: #4caf50;
+  background-color: #007bff;
   color: white;
+  padding: 12px 18px;
   border: none;
-  padding: 12px;
-  width: 100%;
-  font-size: 16px;
-  cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #0056b3;
 }
 
 #curso-selecionado {
-  font-size: 1.5rem; 
-  font-weight: 700; 
-  color: #4caf50; 
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 25px;
-  text-align: center;
-  text-transform: uppercase; /* deixa em maiúsculas */
+}
+
+#nome-curso {
+  color: #007bff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
   letter-spacing: 1.2px;
 }
