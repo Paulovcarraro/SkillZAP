@@ -1,23 +1,39 @@
-/* Estilização do body da página */
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f4faff; /* azul bem claro */
 }
 
-/* Estilização do header da página */
+/* Header com azul vibrante */
 
 header {
-  background-color: #4caf50;
+  background-color: #007bff;
   color: white;
   padding: 20px;
   text-align: center;
+  position: relative;
 }
 
-/* Estilização do Grid com os cards de venda */
+/* Botão "Sobre" no header */
 
+.botao-sobre {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #007bff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.botao-sobre:hover {
+  background-color: #e6f0ff;
+}
+
+/* Grade dos cursos */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -25,17 +41,23 @@ header {
   padding: 20px;
 }
 
+/* Card de curso */
+
 .curso {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border: 1px solid #cce5ff;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* garante que botão fique no final */
+  justify-content: space-between;
   padding: 16px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
   transition: transform 0.2s ease;
+}
+
+.curso:hover {
+  transform: scale(1.02);
 }
 
 .curso img {
@@ -47,6 +69,7 @@ header {
 
 .curso h2 {
   margin: 12px 0 6px;
+  color: #007bff;
 }
 
 .curso p {
@@ -54,9 +77,11 @@ header {
   margin-bottom: 12px;
 }
 
+/* Botão de compra */
+
 .botao-comprar {
   display: inline-block;
-  background-color: #4caf50;
+  background-color: #007bff;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -70,5 +95,5 @@ header {
 }
 
 .botao-comprar:hover {
-  background-color: #45a049;
+  background-color: #0056b3;
 }
