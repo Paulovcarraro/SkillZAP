@@ -16,7 +16,7 @@ form {
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -36,7 +36,7 @@ input {
 
 button {
   margin-top: 20px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 12px;
@@ -52,13 +52,12 @@ button:hover {
 }
 
 #curso-selecionado {
-  font-size: 1.5rem;       /* Aumenta o tamanho da fonte */
-  font-weight: 700;        /* Negrito */
-  color: #4CAF50;          /* Verde combinando com o tema */
+  font-size: 1.5rem; 
+  font-weight: 700; 
+  color: #4caf50; 
   margin-top: 10px;
   margin-bottom: 25px;
   text-align: center;
-  text-transform: uppercase; /* Opcional: deixa em maiúsculas */
-  letter-spacing: 1.2px;      /* Espaçamento entre letras para dar um toque */
+  text-transform: uppercase; /* deixa em maiúsculas */
+  letter-spacing: 1.2px;
 }
-
