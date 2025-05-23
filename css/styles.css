@@ -32,9 +32,9 @@ header {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; /* garante que botão fique no final */
   padding: 16px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 }
 
@@ -54,17 +54,21 @@ header {
   margin-bottom: 12px;
 }
 
-.curso button {
-  background-color: #4CAF50;
+.botao-comprar {
+  display: inline-block;
+  background-color: #4caf50;
   color: white;
-  border: none;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
 }
 
-.curso button:hover {
+.botao-comprar:hover {
   background-color: #45a049;
 }
-  
