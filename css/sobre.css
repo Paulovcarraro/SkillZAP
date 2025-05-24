@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  background-color: #3fa9f5;
+  color: #f4faff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 36px;
+  margin: 0;
+}
+
+.menu-navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.menu-navegacao a {
+  color: #f4faff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+  background-color: #2e8cd6;
+  color: #ffffff;
+}
+
+/* Conteúdo principal */
+
+.conteudo {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-align: center;
+}
+
+.sobre p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #3fa9f5;
+  text-align: center;
+  padding: 20px 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #f4faff;
+}
