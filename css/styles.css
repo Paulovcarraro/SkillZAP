@@ -37,7 +37,8 @@ body {
 }
 
 .menu-navegacao a:hover {
-  color: #1a2e40;
+  background-color: #2e8cd6;
+  color: #ffffff;
 }
 
 /* Botão "Sobre" no header */
