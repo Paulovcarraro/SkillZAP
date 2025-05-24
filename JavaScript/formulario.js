@@ -7,3 +7,5 @@ document.getElementById("curso-selecionado").style.color = "black";
 document.getElementById("nome-curso").textContent = curso;
 document.getElementById("nome-curso").style.color = "#007BFF";
 document.getElementById("nome-curso").style.fontWeight = "700";
+
+
