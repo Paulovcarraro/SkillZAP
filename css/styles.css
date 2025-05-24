@@ -7,12 +7,43 @@ body {
 
 /* Header com azul vibrante */
 
-header {
-  background-color: #007bff;
-  color: white;
-  padding: 20px;
+.cabecalho {
+  background-color: #3fa9f5;
+  color: #f4faff;
   text-align: center;
+  padding: 20px;
   position: relative;
+}
+
+.logo {
+  font-size: 36px;
+  margin: 0;
+}
+
+.slogan {
+  margin: 5px 0 15px;
+  font-size: 18px;
+}
+
+.menu-navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.menu-navegacao a {
+  color: #f4faff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+  color: #1a2e40;
 }
 
 /* Botão "Sobre" no header */
