@@ -1,11 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4faff; /* azul bem claro */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Header com azul vibrante */
+/* Header  */
 
 .cabecalho {
   background-color: #3fa9f5;
@@ -13,11 +12,6 @@ body {
   text-align: center;
   padding: 20px;
   position: relative;
-}
-
-.logo {
-  font-size: 36px;
-  margin: 0;
 }
 
 .slogan {

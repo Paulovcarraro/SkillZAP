@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="./css/formulario.css" />
   </head>
   <body>
-    <header>
+    <!-- Header único e organizado -->
+    <header class="cabecalho">
+      <h1 class="header">SkillZAP</h1>
+      <nav class="menu-navegacao">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="formulario.html">Cadastrar</a>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
       <h1>Finalizar Compra</h1>
       <p id="curso-selecionado">
         Curso selecionado: <span id="nome-curso"></span>
       </p>
-    </header>
 
-    <main>
       <form id="form-compra" action="#" method="POST" novalidate>
         <label for="nome">Nome completo:</label>
         <input type="text" id="nome" name="nome" required />
