@@ -91,6 +91,7 @@ body {
   height: auto;
   object-fit: cover;
   border-radius: 6px;
+  max-height: 50%;
 }
 
 .curso h2 {
